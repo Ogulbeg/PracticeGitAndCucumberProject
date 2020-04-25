@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends AbstractPageBase {
+    String o="k";
     @FindBy(id = "prependedInput")
     private WebElement username;
 //    public WebElement username2 = Driver.getDriver().findElement(By.id("prependedInput"));
